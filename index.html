@@ -1,1 +1,504 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+<div id="main-container" class="text-center">
+<div id="home-slider">
+				
+				<a href="#about-scroll">
+				<div class="slide-content">
+						</div>
+					<div class="slide-overlay">
+				
+					</div></a>
+					
+				<!-- Mobile Cover Photo - Must have show-mobile as class to work -->
+				<img alt="Karen X. Cheng" class="slider-bg show-mobile" src="images/banner.png" />
+			</div><!--end of home-slider-->
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active">
+        <a href="#">Home</a></li>
+        <li><a href="#Publications">Publications</a></li>
+        <li><a href="#Teaching">Teaching</a></li>
+        <li><a href="#Books">Books</a></li>
+        <li><a href="#Talks">Talks</a></li>
+        <li><a href="#Focus">Focused Work</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+<div class="container text-center">
+	<br/>
+	<h1>Srinath Perera</h1>
+	<p>Education: Ph.D. (Indiana 2009), M.Sc. (Indiana 2007), B.Sc.(Moratuwa 2004)</p>
+	<br/>
+	<h2 class="display-2">I design systems and takes apart their designs for living</h2>
+	<h2 class="lead">Chances are you have used systems I have touched.</h2> 
+	
+	<br/>
+	<p><span class="glyphicon glyphicon-envelope"></span> hemapani <img src="images/gmail-pic.png">(Private)</p>
+	<a class="btn btn-primary"href="https://twitter.com/srinath_perera">Twitter</a>
+	<a class="btn btn-primary" href="http://www.linkedin.com/in/srinathperera"> LinkedIn</a>
+	<a class="btn btn-primary" href="http://srinathsview.blogspot.com"> Blog</a>
+	<a class="btn btn-primary" href="http://www.slideshare.net/hemapani">Talks</a>
+	<br/>
+	<br/>
+	
+
+	<p class="lead">If you are looking for graduate or undergraduate <a href="	https://docs.google.com/document/d/1u8l3XyEcHJdUP9XHg0x66tyFBHTJcmex-DCQMpSaFY4/edit">research project ideas</a>, please check the linked doc and drop me a mail if there is common intrest. </p> 
+
+</div>
+</div>
+
+
+<div class="container-fluid text-center">
+ <div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+  		<p class="lead">I am an Apache open source developer since 2003 ( Axis2, Geronimo) and an Apache Member.</p> 
+		<p class="lead">I wrote two SOAP engines (Apache Axis2, AxisMora) , worked with one more (Apache Axis) and a J2EE server ( Apache Geronimo). </p>    
+		
+		<!--
+     	<div class="press cascade">
+			<a href="#beats-scroll" alt="1 minute and 45 seconds in"><img class="pressbanner" src="images/axis2.jpeg" width="150"></a>
+			<a href="https://www.facebook.com/iamkarenx/videos/1512200542141269/"><img class="pressbanner" src="images/geronimo.gif" width="150"></a>
+			<div class="card">
+  				<img class="card-img-top" src="images/geronimo.gif" alt="Card image cap" width=150>
+  				<div class="card-block">
+   				 <h4 class="card-title"><a href="http://geronimo.apache.org/" class="text-center">Apache Geronimo</a></h4>
+				</div>
+			</div>
+			 
+			<div class="card">
+  				<img class="card-img-top" src="images/lead.jpg" alt="Card image cap" width=150>
+  				<div class="card-block">
+   				 <h4 class="card-title"><a href="http://adsabs.harvard.edu/abs/2004AGUFMSF33B..03D" class="text-center">Linked Environments for Atmospheric Discovery</a></h4>
+				</div>
+			</div>
+			<a class="btn btn-primary" href="http://lirneasia.net/projects/bd4d/">LIRNEasia <br/>Big Data for Development</a>			           			
+		</div>
+		-->
+		
+		
+    </div>
+    <div class="col-sm-3"></div>    
+  </div>
+  <div class="row text-center">
+     <div class="col-md-1"></div>  
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="images/axis2.jpeg">
+        <a href="https://github.com/wso2/siddhi"><img src="images/axis2.jpeg" alt="Lights" style="width:80%"></a>
+        <div class="caption">
+          <p><a href="https://github.com/wso2/siddhi">Apache Axis2</a></p>
+        </div>
+      </a>
+    </div>
+   </div> 
+  
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="images/geronimo.gif">
+        <a href="https://github.com/wso2/siddhi"><img src="images/geronimo.gif" alt="Lights" style="width:60%"></a>
+        <div class="caption">
+          <p><a href="https://github.com/wso2/siddhi">Apache Geronimo</a></p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="images/axis2.jpeg">
+        <a href="http://adsabs.harvard.edu/abs/2004AGUFMSF33B..03D"><img src="images/lead.png" alt="Lights" style="width:90%"></a>
+        <div class="caption">
+          <p><a href="http://adsabs.harvard.edu/abs/2004AGUFMSF33B..03D" class="text-center">Linked Environments for Atmospheric Discovery</a></p>
+        </div>
+      </a>
+    </div>
+   </div> 
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="images/axis2.jpeg">
+        <a href="https://github.com/wso2/siddhi"><img src="images/bigdata4dev.jpeg" alt="Lights" style="width:100%"></a>
+        <div class="caption">
+          <p><a href="https://github.com/wso2/siddhi">LIRNEasia: Big Data for Development</a></p>
+        </div>
+      </a>
+    </div>
+   </div> 
+  <div class="col-md-2">
+    <div class="thumbnail">
+      <a href="images/axis2.jpeg">
+        <a href="https://github.com/wso2/siddhi"><img src="images/siddhi.png" alt="Lights" style="width:60%"></a>
+        <div class="caption">
+          <p><a href="https://github.com/wso2/siddhi">WSO2 Siddhi</a></p>
+        </div>
+      </a>
+    </div>
+   </div> 
+     <div class="col-md-1"></div>
+
+
+</div>
+  
+  
+  
+</div>  
+  
+<div class="container-fluid text-center jumbotron">
+	<div class="row">
+    	<div class="col-sm-3"></div>
+    	<div class="col-sm-6">
+			<p>I am VP of Research at WSO2. Systems we built at are used by many including Fortune 500 organizations and governments. </p>
+			<p>I have helped design and prefecting a Stream Processor, a workflow engine, an ESB, a Message Broker, and an Identity Server 5-10 release each. </p>    
+    	</div>
+    	<div class="col-sm-3"></div>    
+  </div>
+</div>
+
+
+
+
+<div class="container-fluid bg-3 text-center">    
+
+ <div class="row text-left">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+    	<h2 class="text-center">30+ Peer Reviewed Research Publications</h2>
+    	<ol>
+			<li>Sachini Jayasekara, Sameera Kannangara, Tishan Dahanayakage, Isuru Ranawaka, Srinath Perera, Vishaka Nanayakkara, Wihidum: Distributed complex event processing, Journal of Parallel and Distributed Computing, Available online 2 April 2015, ISSN 0743-7315, <a href="http://dx.doi.org/10.1016/j.jpdc.2015.03.002.">http://dx.doi.org/10.1016/j.jpdc.2015.03.002.</a></li>
+    	
+    		<li>Milinda Pathirage, Srinath Perera, Indika Kumara, Denis Weerasiri, 
+Sanjiva Weerawarana, A Scalable Multi-Tenant Architecture for Business Process Executions, International Journal of Web Services Research (IJWSR), 9(2), 21-41, April-June 2012</li>
+<li>Yogesh Simmhan, Srinath Perera, Big Data Analytics Platforms for Real-Time Applications in IoT, Big Data Analytics: Methods and Applications, Springer, 2016.</li>
+<li>Srinath Perera, Chathura Herath, Jaliya Ekanayake, Eran Chinthaka, Ajith Ranabahu, Deepal Jayasinghe, Sanjiva Weerawarana, Glen Daniels, <i><a href="http://doi.ieeecomputersociety.org/10.1109/ICWS.2006.36">Axis2, Middleware for Next Generation Web Services</a></i>, IEEE International Conference on Web Services (ICWS), Chicago, September 2006 (Industry track).</li>
+<li>Afkham Azeez, Srinath Perera, Dimuthu Gamage, Ruwan Linton, Prabath Siriwardana, Dimuthu Leelaratne, Sanjiva Weerawarana, Paul Fremantle, <a href="http://people.apache.org/~hemapani/research/papers/multitenancy.pdf">Multi-Tenant SOA Middleware for Cloud Computing</a> 3rd International Conference on Cloud Computing, Florida, 2010</li>
+
+		</ol>
+		<p class="lead text-center"><a href="#Publictions">Go to full Publication List, </a> <a href="https://scholar.google.com/citations?hl=en&user=FhmFGkAAAAAJ&view_op=list_works">Google Scholar Profile and Citations</a></p>
+    
+    
+    </div>
+    <div class="col-sm-2"></div>
+  </div>  
+  </div>
+  
+  <div class="container-fluid jumbotron">
+  <a name="Books"></a>   
+  <div class="row">
+  	<h2 class="text-center">Books and Technical Articles</h2>
+  	<br/>
+    <div class="col-sm-4">
+    	<div class="row text-center">
+    		<div class="col-sm-6">
+      
+<a href="http://www.amazon.com/Hadoop-MapReduce-Cookbook-Srinath-Perera/dp/1849517282/ref=tmm_pap_title_0"><img width="150" src="http://2.bp.blogspot.com/-oj3Vqeh8IkI/UQiS1zZzHHI/AAAAAAAABjk/JXRqB40IxFI/s400/book.png.png"/></a> </p>
+    			
+    		</div>
+    		<div class="col-sm-6">
+</a>		
+<a href="http://www.amazon.com/Instant-MapReduce-Patterns-Hadoop-Essentials/dp/1782167706"><img width="150" src="images/mapreduce-patterns.jpeg"/></a></p>        		
+    		</div>
+	  </div>
+    </div>
+    
+    
+
+    
+    <div class="col-sm-2 text-center"> 
+		<a href="https://www.infoq.com/articles/machine-learning-techniques-predictive-maintenance">
+    	<img src="images/article-pmaintainance.jpg" width="170"/>
+    </a>
+    Machine Learning Techniques for Predictive Maintenance, InfoQ, 2016
+    </div>
+    <div class="col-sm-2 text-center"> 
+		<a href="http://www.infoq.com/articles/Tuning-Java-Servers">
+    	<img src="images/article-tunning.png" width="170"/>
+    </a>
+    Tuning Java Servers, InfoQ, 2014
+    </div>
+    <div class="col-sm-2 text-center"> 
+		<a href="http://www.ibm.com/developerworks/library/os-apache-cassandra/index.html">
+    	<img src="images/article-cassandra.png" width="140"/>
+    </a>
+    Cassandra: Pros and cons of this NoSQL database? IBM Developerworks, 2012
+    </div>
+    <div class="col-sm-2 text-center"> 
+		<a href="http://www.infoq.com/articles/perera-data-storage-haystack">
+    	<img src="images/article-haystack.png" width="170"/>
+    </a>
+    Finding the Right Data Solution for Your Application in the Data Storage Haystack, InfoQ, 2011
+    </div>
+    
+    <!--
+    
+    <div class="col-sm-4 text-left"> 
+    
+	<div class="press cascade text-center">
+		<div class="col-sm-2">
+			<a href="https://www.infoq.com/articles/machine-learning-techniques-predictive-maintenance">
+    			<img src="images/-article-pmaintainance.jpg"/>
+    		</a>
+    	Machine Learning Techniques for Predictive Maintenance, InfoQ, 2016
+    	</div>
+		<a href="https://www.infoq.com/articles/machine-learning-techniques-predictive-maintenance">
+    	<img src="images/-article-pmaintainance.jpg"/>
+    </a>
+		<a href="https://www.infoq.com/articles/machine-learning-techniques-predictive-maintenance">
+    	<img src="images/-article-pmaintainance.jpg"/>
+    </a>
+
+		<a href="#beats-scroll" alt="1 minute and 45 seconds in"><img class="pressbanner" src="images/axis2.jpeg" width="150"></a>
+		<a href="https://www.facebook.com/iamkarenx/videos/1512200542141269/"><img class="pressbanner" src="images/geronimo.gif" width="150"></a>
+		<a href="https://www.linkedin.com/in/karenxcheng"><img src="images/lead.jpg" width="150"></a> 
+	</div>
+		-->		             			
+
+
+    <!--
+      <ol>
+      
+<li><a href="https://www.infoq.com/articles/machine-learning-techniques-predictive-maintenance">Srinath Perera, Machine Learning Techniques for Predictive Maintenance, InfoQ, 2016</a>
+<li><a href="http://www.infoq.com/articles/Tuning-Java-Servers">Srinath Perera, Tuning Java Servers, InfoQ, 2014</a>
+<li><a href="http://java.dzone.com/articles/evolution-mapreduce-and-hadoop">Adam Diaz, Srinath Perera, "The Evolution of MapReduce and Hadoop", Dzone's Guide to Big Data, 2014</a></li>
+<li><a href="http://www.ibm.com/developerworks/library/os-apache-cassandra/index.html">Consider the Apache Cassandra database: what are the pros and cons of this NoSQL database?</a> published in <a href="http://www.ibm.com/developerworks">IBM Developerworks</a>, 2012</li>
+<li><a href="http://www.infoq.com/articles/perera-data-storage-haystack">Finding the Right Data Solution for Your Application in the Data Storage Haystack</a> published in <a href="http://www.infoq.com">InfoQ</a>, 2011</li>
+<li><a href="http://www.jaxmag.com/itr/online_artikel/psecom,id,747,nodeid,147.html">Axis2 - The Future of Web Services</a> published in <a href="http://www.jaxmag.com/">Jax-Magazine</a>.</li> 
+<li><a href="http://www-128.ibm.com/developerworks/java/library/os-ag-deploy/index.html">Understand Geronimo's deployment architecture </a> published in <a href="http://www-128.ibm.com/developerworks/">IBM developerWorks</a>.</li> 
+
+<li><a href="http://www.developer.com/services/article.php/3525481">Introducing Axis 2, the Next Generation of the Apache Web Service Stack</a> published in <a href="http://www.developer.com/">developer.com</a>.</li> 
+
+<li><a href="http://www.onjava.com/pub/a/onjava/2005/07/27/axis2.html">Messaging with Apache Axis2: Concepts and Techniques</a> published in <a href="http://www.onjava.com/">O'REILLY OnJava</a>.</li> 
+</ol>
+	-->
+    </div>
+	<br/>
+    <p class="lead text-center"><a href="https://www.infoq.com/profile/Srinath-Perera">Articles @InfoQ</a>, (@IBM Developerworks <a href="https://www.ibm.com/developerworks/library/os-apache-cassandra/">1</a> & <a href="http://www-128.ibm.com/developerworks/java/library/os-ag-deploy/index.html">2</a>), <a href="http://www.onjava.com/pub/a/onjava/2005/07/27/axis2.html"> @O'reilly On Java</a></p>
+            </div>
+
+  </div>
+</div>
+
+  
+<div class="container-fluid bg-3 text-center">  
+  <a name="Talks"></a>    
+  <h2>Talks and Stories</h2><br>
+  
+
+  
+  <div class="row">
+    <div class="col-sm-3">
+      <a href="  https://www.slideshare.net/hemapani/analytics-and-ai-the-good-the-bad-and-the-ugly">
+      	<img src="images/talk-AI-future.jpg" class="img-responsive" width="100%" style="width:250" alt="Image">
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a href="https://www.slideshare.net/hemapani/soc-keynotethe-state-of-the-art-in-integration-technology">
+      	<img src="images/talk-intergation-history.jpg" class="img-responsive" width="100%" style="width:100%" alt="Image">
+      	
+      </a>
+      <p> @Summer SoC Keynote, <a href="">Video</a></p>
+    </div>
+    <div class="col-sm-3">
+      <a href="  https://www.slideshare.net/hemapani/scalable-realtime-analytics-with-declarative-sql-like-complex-event-processing-scripts">
+      	<img src="images/talk-scalable-realtime-analytics-with-declarative-sql-like-complex-event-processing-scripts-1-638.jpg" class="img-responsive" alt="Image">
+      </a>
+      <p> @Strata 2015, <a href="">Video</a></p>
+    </div>
+    <div class="col-sm-3">
+      <a href="  https://www.slideshare.net/hemapani/transforming-a-business-through-analytics">
+      	<img src="images/talk-businuss-analytics.jpg" class="img-responsive" width="100%" style="width:100%" alt="Image">
+      </a>
+      <p> <a href="">Blog</a></p>
+    </div>
+    <p class="lead text-center"><a href="https://www.slideshare.net/hemapani">Full List of Talks</a>
+  </div>
+</div><br>
+
+
+<div class="row jumbotron">
+<h2 class="text-center">Focused Topics</h2><br>
+     <div class="col-sm-4">
+     <h3 class="text-center">Stream Processing and Big Data</h3>
+     <p class="text-center">
+     <iframe  src="https://www.youtube.com/embed/nRI6buQ0NOM" frameborder="0" allowfullscreen></iframe>
+     </p>
+     <ol>
+     	<li>I envisioned and designed <a href="http://wso2.com/analytics">WSO2 Stream Processor<a> and <a href="https://github.com/wso2/siddhi">WSO2 Siddhi</a></li>
+		<li><a href="http://dl.acm.org/results.cfm?query=(%252Bgrand%20%252Bchallenge%20%252Bwso2)&within=owners.owner=HOSTED&filtered=&dte=&bfr=">ACM DEBS Grand Challenge Finalist</a> in years 2014, 2015, 2016, 2017.</li>
+			<li><a href="http://srinathsview.blogspot.com/2014/07/handling-large-scale-cep-usecase-with.html">How to Scale Complex Event Processing?</a></li>
+			<li><a href="https://iwringer.wordpress.com/2015/11/17/anomaly-detection-concepts-and-techniques/">Introduction to Anomaly Detection: Concepts and Techniques</a></li>
+			<li><a href="http://www.kdnuggets.com/2015/08/patterns-streaming-realtime-analytics.html">Patterns for Streaming Realtime Analytics @KDNuggets
+</a></li>
+			<li><a href="https://softwareengineeringdaily.com/2016/02/04/stream-processing-vs-complex-event-processing/">Stream Processing vs. Complex Event Processing @Software Engineering Daily</a></li>
+			
+     </ol>
+     
+     </div>
+
+    <div class="col-sm-4">
+			<h3 class="text-center">System Design</h3>
+        	<ul>
+        	
+        	
+
+			<li><a href="http://highscalability.com/blog/2011/11/7/10-core-architecture-pattern-variations-for-achieving-scalab.html">Scaling Patterns @highscalability.com</a></li>
+			
+			<li><a href="http://highscalability.com/blog/2011/11/1/finding-the-right-data-solution-for-your-application-in-the.html">Choosing the best DB for your App@highscalability.com & InfoQ</a></li>
+			<li><a href="https://medium.com/systems-architectures/walking-the-microservices-path-towards-loose-coupling-few-pitfalls-4067bf5e497a">Common Pitfalls when you try to build a loosely coupled system using Microservices</a></li>
+			<li><a href="http://dl.acm.org/citation.cfm?id=2539167">How we made ESB 4X faster?</a></li>
+			<li>How we built a Scalable Message Queue Architecture?(<a href="http://people.apache.org/~hemapani/research/papers/mb2.pdf">paper</a>, <a href="http://www.slideshare.net/hemapani/andes-a-scalable-persistent-messaging-system">slides</a>)</li>
+			<li><a href="http://proquest.umi.com/pqdweb?did=1798481701&sid=1&Fmt=2&cl%20ientId=12010&RQT=309&VName=PQD">How I built a Distributed System Management System that can monitor and manage 100K nodes (my theis)?</a></li>
+						<li><a href="http://doi.ieeecomputersociety.org/10.1109/ICWS.2006.36">Architecture and Design of Apache Axis2, one of the most widely used SOAP Engines</a></li>
+
+			
+
+			</ul>
+    </div>
+    <div class="col-sm-4">
+    <h3 class="text-center">Multi-tenancy, Cloud, PaaS</h3>
+        	<ul>
+			<li>How we buit an Multi-tenant Application Server? <a href="http://people.apache.org/~hemapani/research/papers/multitenancy.pdf">Cloud 2010</a></li>
+			 <li>How we built a Multi-tenant Workflow Engine?<a href="http://people.apache.org/~hemapani/research/papers/ode-multi-tenancy.pdf"> ICWS 2011 </a></li>
+			 <li>QoS Aware Load Balancing in Multi-tenant Cloud Environments,
+<a hef="http://perpetualinnovation.net/ojs/index.php/ijngc/article/view/185">IJNGC 2013</a>.</li>
+			<li>How to Scale a PaaS? <a href="http://people.apache.org/~hemapani/research/papers/stratos.pdf">Apache Stratos</a>, <a href="http://highscalability.com/blog/2012/6/7/case-study-on-scaling-paas-infrastructure.html">Scaling PaaS@highscalability.com</a></li>
+			<li>Design of a Scientific workflow management systems that later become Apache Airvatha <a href="http://people.apache.org/~hemapani/research/papers/hasthi-lead-icws2009.pdf">ICWS 2009</a>, <a href="http://people.apache.org/~hemapani/research/papers/">GCE 2011</a></li>
+			</ul>
+
+    </div>    
+  </div>
+  
+</div>
+
+
+<div class="container-fluid">
+	<a name="Teaching"></a>    
+    <h2 class="text-center">Teaching and Advising</h2>
+    <br/>
+	<div class="row">
+		<div class="col-sm-2"></div>
+    	<div class="col-sm-8">
+			<p>Visiting Faculty at University of Moratuwa since 2009 and I teach "Distributed Systems" and Parallel Programming both to under Graduates and Graduates</p>
+			<p>I have mentored 25+ Final Year Research Projects for University of Moratuwa, University of Colombo, Informatics Institute of Technology and research advisor for 5+ Msc students who has completed since 2009. Many of this has lead to peer reviewed publications (see <a href="#Publications">Publications</a>). </p>
+			<p>
+				<ul>
+					<li>Board Member, Faculty of Business, University of Moratuwa</li>
+					<li>Technical Committee Member 2014-2015, SLASSCOM (Sri Lanka Association for Software and Services Companies)</li>
+					<li>Department Industry Consultative Board (DICB) at University of Colombo School of Computing  and SLIIT</li>
+				</ul>
+			</p> 
+			<p>Outstanding Contributor to ICT Industry Award, 2016 and Outstanding Academic Performer Alumni, 2013 by Computer Science and Engineering Society, Sri Lanka</p>  
+    	</div>
+		<div class="col-sm-2"></div>    	
+  </div>  
+</div>
+
+<div class="container-fluid bg-3 text-left jumbotron">
+	<a name="Publications"></a>
+  <div class="row">
+	<div class="col-sm-1"></div>
+    <div class="col-sm-10">
+    	<h2 class="text-center">Publications (Peer Reviewed)</h2>
+    	<ol>
+			<li>Yogesh Simmhan, Srinath Perera, "Big Data Analytics Platforms for Real-Time Applications in IoT, Big Data Analytics: Methods and Applications", Springer, 2016.</li>
+			<li>Jayasinghe, Malith, et al. "Continuous analytics on Graph Data Streams using WSO2 Complex Event Processor." Proceedings of the 10th ACM International Conference on Distributed and Event-based Systems. ACM, 2016.</li>
+			<li>Prabodha Srimal, Dilum Bandara, Srinath Perera, Accelerating Complex Event Processing through GPUs, IEEE International Conference on High Performance Computing, 2015</li>
+			<li>Sachini Jayasekara, Srinath Perera, Miyuru Dayarathna, and Sriskandarajah Suhothayan. 2015. <a href="http://doi.acm.org/10.1145/2675743.2772585">Continuous analytics on geospatial data streams with WSO2 complex event processor</a>. In Proceedings of the 9th ACM International Conference on Distributed Event-Based Systems (DEBS '15). ACM, New York, NY, USA, 277-284. DOI=10.1145/2675743.2772585 
+		</li>
+		<li>
+			Srinath Perera and Sriskandarajah Suhothayan. 2015. <a href="http://doi.acm.org/10.1145/2675743.2774214">Solution patterns for realtime streaming analytics</a>. In Proceedings of the 9th ACM International Conference on Distributed Event-Based Systems (DEBS '15). ACM, New York, NY, USA, 247-255. DOI=10.1145/2675743.2774214 
+		</li>
+		<li>Sachini Jayasekara, Sameera Kannangara, Tishan Dahanayakage, Isuru Ranawaka, Srinath Perera, Vishaka Nanayakkara, Wihidum: Distributed complex event processing, Journal of Parallel and Distributed Computing, Available online 2 April 2015, ISSN 0743-7315, <a href="http://dx.doi.org/10.1016/j.jpdc.2015.03.002.">http://dx.doi.org/10.1016/j.jpdc.2015.03.002.</a></li>
+		<li>Rashmi Arachchi, Madhushi Bandara, Rajitha Ranasinghe, Channa Somathilaka , Srinath Perera,  Chinthana Wimalasuriya, "A Complex Event Processing Toolkit for Detecting Technical Chart Patterns", High Performance Big Data and Cloud Computing Workshop (HPBC), 2015</a>
+		<li>Srinath Perera, Suhothayan Sriskandarajah, Mohanadarshan Vivekanandalingam, Paul Fremantle, and Sanjiva Weerawarana, "Solving the grand challenge using an opensource CEP engine." Proceedings of the 8th ACM International Conference on Distributed Event-Based Systems. ACM, 2014.</li>
+		<li>Shelan Perera, Ashansa Perera, Kishanthan Thangaraja, Hiruni Madola, Malaka Walpola, Srinath Perera, "Mahasen: Distributed Storage Resource Broker", in proceeding of 10th IFIP International Conference on Network and Parallel Computing, 2013</li>
+		<li>Hiranya Jayathilaka, Pradeep Fernando, Paul Fremantle, Kasun Indrasiri, Dushan Abeyruwan, Supun Kamburugamuve, Sadeep Jayasumana, Sanjiva Weerawarana, Srinath Perera: Improved Server Architecture for Highly Efficient Message Mediation, iiWAS 2013: 418, 2013</a>
+		<li>Susara De Saram, Srinath Perera, Mahen Jayawardena, <a href="http://perpetualinnovation.net/ojs/index.php/ijngc/article/view/185">QoS-Aware Load Balancing in Multi-tenant Cloud Environments</a>, International Journal of Next-Generation Computing (IJNGC), March 2013</li>
+		<li>Milinda Pathirage, Srinath Perera, Indika Kumara, Denis Weerasiri, 
+Sanjiva Weerawarana, A Scalable Multi-Tenant Architecture for Business Process Executions, International Journal of Web Services Research (IJWSR), 9(2), 21-41, April-June 2012</li>
+		<li>Charith Wickramarachchi, Srinath Perera, Shammi Jayasinghe, Sanjiva Weerawarana,  <a href="papers/mb2.pdf">Andes: a Highly Scalable Persistent Messaging System</a>, 10th International Conference on Web Services (ICWS), 2012</li>
+		<li>Srinath Perera, Nuwan Kumarasiri, Senaka Fernando,Sanjiva Weerawarana ,Paul Fremantle, Cloud Services Gateway: A tool for exposing Private Services to the Public Cloud with fine-grained Control,  International Workshop on Workflow Models, Systems, Services and Applications in the Cloud (CloudFlow 2012)</li>
+		<li>Sriskandarajah Suhothayan, Kasun Gajasinghe, Isuru Loku Narangoda, Subash Chaturanga, Srinath Perera, and Vishaka Nanayakkara, <i> <a href="http://people.apache.org/~hemapani/research/papers/siddi-gce2011.pdf">Siddhi: A Second Look at Complex Event Processing Architectures</a></i>, in Proceedings of the Gateway Computing Environments Workshop (GCE), Seattle, 2011</li>
+		<li>Suresh Marru, Marlon Pierce, Chathura Herath, Patanachai Tangchaisin, Thilina Gunarathne, Raminder Singh, Eran Chinthaka Withana, Lahiru Gunathilake, Srinath Perera, and Sanjiva Weerawarana,  <a href="http://people.apache.org/~hemapani/research/papers/">Apache Airavata: A framework for Distributed Applications and Computational Workflows</a>, in Proceedings of the Gateway Computing Environments Workshop (GCE), Seattle, 2011</li>
+		<li>C.S.Rupasinghe, M.R.M.Mufthas and Srinath Perera, <i>3D Molecular Geometry and Band Structure Modelling of Graphene and Carbon Nanotubes</i>, International Journal of Simulation-Systems, Science and Technology- IJSSST V12, United Kingdom, 2012</li>
+		<li>A. Azeez and S. Perera et al., <a href="http://people.apache.org/~hemapani/research/papers/stratos.pdf">WSO2 Stratos: An Industrial Stack to Support Cloud Computing</a>, IT: Methods and Applications of Informatics and Information Technology Journal, the special Issue on Cloud Computing, 2011.</li>
+		<li>Milinda Pathirage, Srinath Perera, Sanjiva Weerawarana, Indika Kumara, <a href="http://people.apache.org/~hemapani/research/papers/ode-multi-tenancy.pdf">A Multi-tenant Architecture for Business Process Execution</a>, 9th International Conference on Web Services (ICWS), 2011</li>
+		<li>Pradeep R. Fernando, Charith D. Wickramarachchi, Udayanga S. Wickramasinghe, Dulanjanie Sumanasena, Sanjiva Weerawarana, and Srinath Perera. <a href="http://doi.acm.org/10.1145/1890799.1890809">BISSA: empowering web-gadget communication with tuple spaces</a>, in Proceedings of the Gateway Computing Environments Workshop (GCE), New Orleans, USA, , DOI=http://dx.doi.org/10.1109/GCE.2010.5676130, 2010</li>
+		<li>Buddhika De Alwis, Supun Malinga, Kathiravelu Pradeeban, Denis Weerasiri, Srinath Perera, and Vishaka Nanayakkara. <a href="http://doi.acm.org/10.1145/1890799.1890807">Mooshabaya: mashup generator for XBaya<a/> in Proceedings of the 8th International Workshop on Middleware for Grids, Clouds and e-Science (MGC '10). ACM, New York, NY, USA, , Article 8 , 6 pages. DOI=10.1145/1890799.1890807 http://doi.acm.org/10.1145/1890799.1890807, 2010</li>
+		<li>Paul Fremantle, Srinath Perera, Afkham Azeez, Sameera Jayasoma, Sumedha Rubasinghe, Ruwan Linton, Sanjiva Weerawarana, and Samisa Abeysinghe. <a href="http://people.apache.org/~hemapani/research/papers/carbon.pdf">Carbon: towards a server building framework for SOA platform.</a> In Proceedings of the 5th International Workshop on Middleware for Service Oriented Computing (MW4SOC '10). ACM, New York, NY, USA, 7-12. DOI=10.1145/1890912.1890914 http://doi.acm.org/10.1145/1890912.1890914, 2010</li>
+		<li>Afkham Azeez, Srinath Perera, Dimuthu Gamage, Ruwan Linton, Prabath Siriwardana, Dimuthu Leelaratne, Sanjiva Weerawarana, Paul Fremantle, <a href="http://people.apache.org/~hemapani/research/papers/multitenancy.pdf">Multi-Tenant SOA Middleware for Cloud Computing</a> 3rd International Conference on Cloud Computing, Florida, 2010</li>
+		<li>Ramith Jayasinghe, Dinesh Gamage, Srinath Perera, "Towards Improved Data Dissemination of Publish-Subscribe Systems" 8th International Conference on Web Services, Florida, 2010</li>
+		<li>Srinath Perera, Dennis Gannon, "<a href="http://people.apache.org/~hemapani/research/papers/hasthi-shws2009.pdf">Enforcing User-Defined Management Logic in Large Scale Systems</a>," services, pp.243-250, 2009 Congress on Services - I, 2009, DOI:<a href="http://doi.ieeecomputersociety.org/10.1109/SERVICES-I.2009.8">http://doi.ieeecomputersociety.org/10.1109/SERVICES-I.2009.8</a>.</li>
+		<li>Srinath Perera, Suresh Marru, Thilina Gunarathne, Dennis Gannon, Beth Plale, "<a href="http://people.apache.org/~hemapani/research/papers/hasthi-lead-icws2009.pdf">Application of Management Frameworks to Manage Workflow-Based Systems: A Case Study on a Large Scale E-science Project</a>," icws, pp.519-526, 2009 IEEE International Conference on Web Services, 2009, DOI:<a href="http://doi.ieeecomputersociety.org/10.1109/ICWS.2009.52">http://doi.ieeecomputersociety.org/10.1109/ICWS.2009.52</a>.</li>
+		<li>Srinath Perera, Suresh Marru, Chathura Herath, <a href="http://people.apache.org/~hemapani/research/papers/gfac-2008-teragird.pdf">Workflow Infrastructure for Multi-scale Science Gateways</a>, <i>3rd TeraGrid Conference, 2008</i>.</li>
+		<li>Suresh Marru, Srinath Perera, Martin Feller,Stuart Martin, Reliable and Scalable Job Submission: LEAD Science Gateway's Testing and Experiences with WS GRAM on TeraGrid Resources <i>3rd TeraGrid Conference, 2008</i>.</li>
+		<li>Dennis Gannon, Beth Plale, Marcus Christie, Yi Huang, Scott Jensen, Ning Liu, Suresh Marru, Sangmi Lee Pallickara, Srinath Perera, Satoshi Shirasuna, Yogesh Simmhan, Aleksander Slominski, Yiming Sun, Nithya Vijayakumar. <a href="http://www.cs.indiana.edu/~plale/papers/GannonHPCandGrids2007.pdf">Building Grid Portals for e-Science: A Service Oriented Architecture</a> . 			
+		<il>Book Chapter, High Performance Computing and Grids in Action, IOS Press, 2007, To appear.</i>
+		<li>Srinath Perera, Dennis Gannon, <a href="http://www.isi.edu/works06/perera_works06.pdf">Enabling Web Service Extensions for Scientific 	Workflows</a> <i>in HPDC2006 Workshop on Workflows in Support of Large-Scale Science (WORKS06), Paris, France, June 2006</i></li>
+		<li>Srinath Perera, Chathura Herath, Jaliya Ekanayake, Eran Chinthaka, Ajith Ranabahu, Deepal Jayasinghe, Sanjiva Weerawarana, Glen Daniels, <i><a href="http://doi.ieeecomputersociety.org/10.1109/ICWS.2006.36">Axis2, Middleware for Next Generation Web Services</a></i>, IEEE International Conference on Web Services (ICWS), Chicago, September 2006 (Industry track).</li>
+		<li>Srinath Perera, <a href="http://people.apache.org/~hemapani/research/papers/fastws-2005.pdf">High performance SOAP engine with pull parsing and code generation</a>,<i> accepted by International conference on Web Services     ICWS 2005 (http://conferences.computer.org/icws/2005/), Industry track. Unfortunately I can not risk VISA, as I was planning to come to IU next month. So technically it is not published.</i> 
+</li>		
+		</ol>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
+
+
+<div class="container-fluid text-center">
+ <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+    <p class="lead">I am a Sri Lankan. Currently, I live in Sri Lanka. <br/>
+    I am an avid reader(<a href="https://www.goodreads.com/user/show/4372855-srinath-perera">Goodreads</a>), a student of history, and <a href="https://www.chess.com/member/srinath_perera">a chess player</a>.  
+    </p>
+    
+    </div>
+    <div class="col-sm-2"></div>    
+  </div>
+</div>  
+
+<footer class="container-fluid text-center">
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
+</footer>
+
+</body>
+</html>
