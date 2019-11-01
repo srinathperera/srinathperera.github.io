@@ -1,5 +1,7 @@
 # Publications 
-1. Pasindu Tennage, Malith Jayasinghe, An analysis of Holistic tail latency behaviors of a Java Microservices,  IEEE High Performance Computing and Communications (HPCC), 2019
+1. N Jihan, M Jayasinghe, S Perera, Streaming stochastic variational Bayes; An improved approach for Bayesian inference with data streams, 2019, PeerJ Preprints, [https://peerj.com/preprints/27790/](https://peerj.com/preprints/27790/)
+2. S Perera, F Leymann, P Fremantle, A use case centric survey of Blockchain: status quo and future directions, PeerJ PrePrints, 2019, [https://peerj.com/preprints/27529/](https://peerj.com/preprints/27529/)
+1. Pasindu Tennage, Malith Jayasinghe, [An analysis of Holistic tail latency behaviors of a Java Microservices](https://www.semanticscholar.org/paper/An-Analysis-of-Holistic-Tail-Latency-Behaviors-of-Tennage-Perera/ea49793fcb8919c8a906fb11d95f13d96d4b2494),  IEEE High Performance Computing and Communications (HPCC), 2019
 2. Nilushan Costa, Malith Jayasinghe, Sanjeewa Atukorale, Srinath Perera, Isuru Perera, ADAPT-T: An Adaptive Algorithm for Auto-Tuning Worker Thread Pool Size in Application Servers, IEEE Symposium on Computers and Architectures Communications( ISCC), 2019
 3. Anomaly Detection in High Performance API-Gateways, International Conference on High Performance Computing & Simulation
 (HPCS), 2019
